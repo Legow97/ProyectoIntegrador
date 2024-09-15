@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Clínica Odontológica</h1>
+
+<section>
+    <h2>Odontólogos</h2>
+    <button onclick="listarOdontologos()">Listar Odontólogos</button>
+    <button onclick="mostrarFormularioAgregarOdontologo()">Agregar Odontólogo</button>
+    <button onclick="eliminarOdontologo()">Eliminar Odontólogo</button>
+    <button onclick="obtenerOdontologo()">Obtener Odontólogo</button>
+    <div id="odontologos-list"></div>
+</section>
+
+<section>
+    <h2>Pacientes</h2>
+    <button onclick="listarPacientes()">Listar Pacientes</button>
+    <button onclick="mostrarFormularioAgregarPaciente()">Agregar Paciente</button>
+    <button onclick="eliminarPaciente()">Eliminar Paciente</button>
+    <button onclick="obtenerPaciente()">Obtener Paciente</button>
+    <div id="pacientes-list"></div>
+</section>
+
+<section>
+    <h2>Turnos</h2>
+    <button onclick="listarTurnos()">Listar Turnos</button>
+    <button onclick="mostrarFormularioAgregarTurno()">Agregar Turno</button>
+    <button onclick="eliminarTurno()">Eliminar Turno</button>
+    <button onclick="obtenerTurno()">Obtener Turno</button>
+    <div id="turnos-list"></div>
+</section>
+
+<script src="odontologos.js"></script>
+<script src="pacientes.js"></script>
+<script src="turnos.js"></script>
+</body>
+</html>
